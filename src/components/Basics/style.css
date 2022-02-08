@@ -89,20 +89,6 @@
     text-transform: capitalize;
   }
 
-  #footer {
-    position: fixed;
-    font-size: 22px;
-    background-color: lightgray;
-    margin-top: 5px;
-    padding-top: 2px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    margin-bottom: 0px;
-    text-align: center;
-    height: fit-content;
-  }
-  
   .card-description {
     /* display: inline-block; */
     font-weight: 300;
