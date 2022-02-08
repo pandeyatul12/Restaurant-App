@@ -24,7 +24,7 @@ const MenuCard = ({menuData}) => {
     </div>
     </>
         );
-      })};
+      })}
     </section>
     </>
     )};

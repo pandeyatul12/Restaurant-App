@@ -11,10 +11,10 @@ const Navbar = ({filterItem, menuList}) => {
                         onClick={() => filterItem(curElem)}
                         >{curElem}</button>
                     );
-                    })};
+                    })}
             </div>
         </nav>
-  </>;
+  </>
 };
 
 export default Navbar;
