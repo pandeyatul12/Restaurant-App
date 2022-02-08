@@ -24,7 +24,7 @@
     color: #aaa;
   }
   
-  .main-card--cointainer {
+  .main-card--container {
     display: grid;
     grid-template-columns: repeat(3, minmax(300px, 500px));
     grid-gap: 50px;
@@ -87,6 +87,20 @@
     line-height: 60px;
     margin: 10px 0;
     text-transform: capitalize;
+  }
+
+  #footer {
+    position: fixed;
+    font-size: 22px;
+    background-color: lightgray;
+    margin-top: 5px;
+    padding-top: 2px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    height: fit-content;
   }
   
   .card-description {
